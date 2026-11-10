@@ -1,16 +1,31 @@
 {
   "name": "@ashmit1812/dsa-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typed, zero-dependency data structures (Stack, Queue, LinkedList, BST, Heap) with built-in terminal visualization. Made for students learning DSA.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "tsc -p tsconfig.test.json && node --test .test-build/test/*.test.js",
     "prepublishOnly": "npm run build && npm test"
   },
-  "keywords": ["data-structures", "dsa", "stack", "queue", "linked-list", "binary-search-tree", "heap", "typescript", "education", "visualization"],
+  "keywords": [
+    "data-structures",
+    "dsa",
+    "stack",
+    "queue",
+    "linked-list",
+    "binary-search-tree",
+    "heap",
+    "typescript",
+    "education",
+    "visualization"
+  ],
   "author": "ashmit1812",
   "license": "MIT",
   "repository": {
@@ -21,7 +36,9 @@
     "url": "https://github.com/ashmitsahu1812/dsa-kit/issues"
   },
   "homepage": "https://github.com/ashmitsahu1812/dsa-kit#readme",
-  "engines": { "node": ">=16" },
+  "engines": {
+    "node": ">=16"
+  },
   "devDependencies": {
     "typescript": "^5.4.0",
     "@types/node": "^20.0.0"
